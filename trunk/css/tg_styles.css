@@ -1,0 +1,672 @@
+div.clear{
+    clear: both;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+div.tg_box br {
+   display: block;
+   margin: 5px 0;
+}
+
+.button_blue{
+    background-color: #5F95CF;
+    color: #FFFFFF !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    padding: 3px 10px;
+    text-decoration: none !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button_blue > a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.button_blue > a:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.tg_box{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:1px solid #DFDFDF;
+    margin: 10px;
+}
+
+div.tg_box > div.tg_header_box{
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1; 
+    border-bottom:1px solid #DFDFDF;
+    border-top:1px solid #FFFFFF;
+    padding: 10px 120px 5px 10px;
+    
+    color:#6A6A6A;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+
+div.tg_box > div.tg_content_box{
+    padding:10px;
+}
+
+div.tg_text_box{
+    padding: 0px 10px;
+}
+
+div.tg_box > div.tg_header_box > div.tg_header_box_title{
+    float:left;
+}
+
+div.tg_box > div.tg_header_box > div.tg_header_box_title > h1{
+    line-height: 25px;
+}
+
+div.tg_box > div.tg_header_box > div.tg_header_box_logo{
+    position: absolute;
+    right: 10px;
+}
+
+div.tg_box_channel_list_items{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:1px solid #DFDFDF;
+    margin: 10px 10px;   
+    padding: 10px;
+    min-width: 770px;
+}
+
+div.tg_box_channel_list div.tg_box_channel_list_channel_header, div.tg_box_channel_list_items{
+    background-color: #F9F9F9;
+}
+
+div.tg_box_channel_list div.tg_box_channel_list_channel_header{
+    font-weight: bold;
+    line-height: 25px;
+    height: 25px;
+    /*cursor: pointer;*/
+    /*margin-bottom: 3px;*/
+} 
+
+div.tg_box_channel_list div.tg_box_channel_list_channel_header input{
+    vertical-align: baseline;
+}
+
+div.tg_box_channel_list_content > div.tg_box_channel_list_content_image{
+    float:left;
+    width: 200px;
+    text-align: left;
+    background-color: #FFFFFF;
+    margin: 35px 10px 10px 10px;
+    text-align: center;
+    position: relative;
+    padding: 0px !important;
+}
+
+div.tg_box_channel_list_content > div.tg_box_channel_list_content_details{
+    float:left;
+    margin: 10px 10px;
+    background-color: #FFFFFF;
+    max-width: 500px;
+}
+
+.tg-border-radius{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:1px solid #DFDFDF;
+    padding: 10px;    
+}
+
+div.tg_content_box div.wrap{
+    width: 100%;
+}
+
+div.tg_content_box div.postbox-container{
+    width: 100%;
+}
+
+div#tg_epaper_progress_bar, div#tg_epaper_agb_overlay{
+    background-color: #FFFFFF;
+    opacity: 0.93;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 900;
+    padding: 20px 0px;
+}
+
+div#tg_epaper_progress_bar > div#overlayer_content, div#tg_epaper_agb_check_content{
+    background-color: #EFEFEF;
+    height: 150px;
+    width: 400px;
+    margin: 100px auto;
+    position:relative;
+}
+
+div#tg_epaper_agb_check_content > div{
+    
+}
+
+div#tg_epaper_agb_check_content > div.tg_agb_logo{
+    float:left;
+    margin-bottom: 20px;
+}
+
+div#tg_epaper_agb_check_content > div.agb_text{
+    width:280px;
+    float:left;
+    margin-bottom: 20px;
+}
+
+div.overlayer{
+    cursor: wait;
+}
+
+div#tg_epaper_progress_bar_status{
+    width: 90%;
+    height: 20px;
+    margin: 20px auto 0px auto;
+    border: 1px solid #D3D3D3;
+}
+
+div#tg_epaper_progress_bar_action,
+div#tg_epaper_save_bar_action{
+    margin-bottom: 10px;
+    float:left;
+}
+
+div#tg_epaper_progress_bar_percent{
+    float:left;
+    height: 20px;
+    line-height: 20px;
+    background: #5F95CF;
+    text-align: center;
+    color:#FFFFFF;
+    position: relative;
+    white-space: nowrap;
+}
+
+div.tg_info_box div.tg_info_box_inner{
+    /*padding: 10px;*/
+}
+
+div.tg_info_box div.tg_info_box_inner_header{
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 10px 120px 5px 10px;
+    border-top: 1px solid #FFFFFF;
+    
+    color:#6A6A6A;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    
+}
+
+div.tg_info_box div.tg_info_box_inner_content{
+    padding: 10px;
+}
+
+div.tg_epaper_tiny_ajax_box{
+    padding-top: 20px;
+}
+
+div.tg_epaper_tiny_ajax_box div.tg_epaper_tiny_ajax_box_preview{
+    float: left;
+    padding: 0px;
+    width: 200px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:1px solid #DFDFDF;
+}
+
+div.default-height-preview-image{
+    text-align: center !important;
+}
+
+div.tg_epaper_tiny_ajax_box div.tg_epaper_tiny_ajax_box_config{
+    float: left;
+    margin-left: 20px;
+    padding: 10px 0px;
+    width: 340px;
+}
+
+div.tg_epaper_tiny_ajax_box div.tg_epaper_tiny_ajax_box_config div.tg_epaper_config_insert{
+    margin-top: 25px;
+}
+
+div.float_left{
+    float: left;
+}
+
+.tg_epaper_left{
+    float:left;
+    margin: 5px 5px 5px 0px;
+}
+
+.tg_epaper_center{
+    margin: 5px;
+}
+
+.tg_epaper_right{
+    float:right;
+    margin: 5px 0px 5px 5px;
+}
+
+div.tg_epaper_config_align_option{
+    float:left;
+    margin-left: 20px;
+}
+
+div.tg_epaper_config_insert{
+    margin: 10px 0px;
+}
+
+div.tg_epaper_tiny_ajax_box_config_channel{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+div.tg_epaper_tiny_ajax_box_config_box{
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+div.tg_epaper_tiny_ajax_box_config_box_title{
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+div.uploadify_button_container{
+    float:left;
+    margin-top: 15px;
+    position: relative;
+}
+
+div.epaper_widget_preview_images{
+    width: 200px;
+    margin: auto;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border:1px solid #DFDFDF;
+    margin: 10px;
+    line-height: 0px;
+}
+
+
+/*Uploadify*/
+.uploadify-button{
+    background-color: #5F95CF;
+    color: #FFFFFF !important;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-decoration: none !important;
+    text-align: center;
+    cursor: pointer;
+}
+
+.uploadify {
+    position: relative;
+    margin-bottom: 1em;
+    width: auto !important;
+}
+
+.uploadify:hover .uploadify-button {
+}
+
+.uploadify-button.disabled {
+    background-color: #D0D0D0;
+    color: #808080;
+}
+
+.uploadify-queue {
+    margin-bottom: 1em;
+    display:none !important;
+}
+
+.uploadify-queue-item {
+    background-color: #F5F5F5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    font: 11px Verdana, Geneva, sans-serif;
+    margin-top: 5px;
+    max-width: 500px;
+    padding: 10px;
+}
+
+.uploadify-error {
+    background-color: #FDE5DD !important;
+}
+
+.uploadify-queue-item .cancel a {
+    background: url('../img/uploadify-cancel.png') 0 0 no-repeat;
+    float: right;
+    height:	16px;
+    text-indent: -9999px;
+    width: 16px;
+}
+
+.uploadify-queue-item.completed {
+    background-color: #E5E5E5;
+}
+
+.uploadify-progress/*, div#tg_epaper_progress_bar_status*/ {
+    background-color: #E5E5E5;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.uploadify-progress-bar/*, div#tg_epaper_progress_bar_percent*/ {
+    background-color: #0099FF;
+    height: 3px;
+    width: 1px;
+}
+
+div.epaper_error{
+    background-color: #FFEBE8;
+    border-color: #CC0000;    
+}
+
+div.epaper_info{
+    background-color: #FFFFE0;
+    border-color: #E6DB55;    
+}
+
+div#tg_epaper_ajax_loader{
+    float:left;
+    background: url('../img/ajax-loader.gif');
+    height: 16px;
+    width: 16px;
+    margin-left: 10px;
+}
+
+.hide{
+    display:none;
+}
+
+div.tg_meta_box_switch{
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #DFDFDF;
+    height: 25px;
+}
+
+div.tg_meta_box_switch > div{
+    float:left;
+    width: 33%;
+    text-align: center;
+}
+
+div.tg_meta_box_switch > div > a{
+    text-decoration: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+div.tg_clear_channel, div.tg_edit_epaper_button{
+    margin: 15px 0px 0px 5px;
+    line-height: 18px;
+    position: relative;
+}
+
+div.ajax_loader_big{
+    width: 16px;
+    height: 16px;
+    background: url('../img/ajax-loader.gif');
+    margin: auto;
+}
+
+div.tg_box_channel_list_content_image > div.ajax_loader_big{
+    position: absolute;
+    top: 50%;
+    left: 92px;
+}
+
+div#tg_epaper_meta_box_container{
+    min-height: 380px;
+}
+
+div#tg_epaper_meta_box_container div.tg_box{
+    width: 200px;
+    margin: 15px auto;
+}
+
+div.tg_image_container{
+    line-height: 0px !important;
+}
+
+div#TB_ajaxContent{
+    margin:auto;
+}
+
+div.tg_epaper_language_container select{
+    margin-left: 5px;
+}
+
+div.tg_upload_info, div.tg_clear_channel_info{
+    background-color: #FFFFE0;
+    border: 1px solid #E6DB55;
+    color: #000000;
+    display: none;
+    left: 0;
+    padding: 2px;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+    line-height: 16px;
+    font-weight: normal;
+}
+
+div.uploadify_button_container:hover div.tg_upload_info,
+div.tg_clear_channel:hover div.tg_clear_channel_info{
+    display: block;
+}
+
+div.tg_channel_config{
+    min-width: 450px;
+    min-height: 250px;
+}
+
+div.dialog_clean, div.tg_epaper_dialog_clean{
+    background: url('../img/dialog-clean.png');
+}
+
+div.dialog_error, div.tg_epaper_dialog_error{
+    background: url('../img/dialog-error.png');
+}
+
+div.dialog_question, div.tg_epaper_dialog_question{
+    background-image: url('../img/dialog-question.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 16px;
+    height: 25px;
+    line-height: 25px;
+}
+
+div#tg_epaper_progress_bar a.tg_cancel_upload{
+    float:right;
+    margin:15px 19px 0 0;
+}
+
+.tg_epaper_dialog_question{
+    float: right;
+    margin-left: 5px;
+    height: 25px;
+    cursor: help; 
+    position: relative;
+}
+
+.tg_epaper_dialog_question > .tg_epaper_dialog_question_text{
+    display:none;
+}
+
+.tg_epaper_dialog_question:hover > .tg_epaper_dialog_question_text{
+    display:block;
+    position: absolute;
+    left: 30px;
+    background-color: #FFFFE0;
+    border: 1px solid #E6DB55;
+    padding: 2px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.tg_epaper_hidden{
+    visibility: hidden;
+}
+
+.tg_epaper_ajax_loader{
+    background: url('../img/ajax-loader.gif');
+}
+
+div.tg_epaper_progress_bar_logo, div.tg_epaper_save_bar_logo{
+    background: url('../img/edelpaper_logo_100.png')no-repeat;
+    height:51px;
+    width: 100px;
+    margin:7px 15px 0px 19px;
+    float:left;
+}
+
+div#tg_epaper_progress_bar_action > div, div#tg_epaper_save_bar_action > div {
+    line-height: 20px;
+    height: 20px;
+}
+
+div#tg_epaper_progress_bar_action div.tg_action, div#tg_epaper_save_bar_action div.tg_action{
+    float:left;
+}
+
+div#tg_epaper_progress_uploading div.tg_status, 
+div#tg_epaper_progress_rendering div.tg_status, 
+div#tg_epaper_progress_publishing div.tg_status,
+div#tg_epaper_progress_saving div.tg_status{
+    float:right;
+    margin-left: 10px;
+    width: 16px;
+    height: 16px;
+    margin: 0px 0px 0px 5px;
+    /*display: inline-table;*/
+}
+
+div#tg_epaper_progress_uploading, 
+div#tg_epaper_progress_rendering, 
+div#tg_epaper_progress_publishing,
+div#tg_epaper_progress_saving{
+    max-width: 180px;
+    margin-right: 5px;
+}
+
+div#tg_epaper_progress_saving{
+    margin-top:20px;
+}
+    
+div#tg_epaper_progress_bar_action .tg_epaper_ajax_loader, 
+div#tg_epaper_save_bar_action .tg_epaper_ajax_loader,
+div#tg_epaper_progress_bar_action .dialog_clean{
+    float:right;
+}
+
+div.tg_epaper_edit_label{
+    width: 120px;
+    padding-right: 10px;
+}
+
+.float_left{
+    float:left;
+}
+
+div.tg_epaper_shortcode_box{
+    margin: auto;
+    width: 200px;
+}
+
+div.tg_epaper_shortcode_box.alignleft{
+    margin:10px 10px 10px 0px;
+}
+
+div.tg_epaper_shortcode_box.aligncenter{
+    margin:auto;
+}
+
+div.tg_epaper_shortcode_box.alignright{
+    margin: 10px 0px 10px 10px;
+}
+
+div.tg_channelbox_embed_headline{
+    font-weight: bold;
+}
+
+hr.tg_epaper_hr_grey{
+    background-color: #E8E8E8;
+    border: medium none;
+    color: #E8E8E8;
+    height: 1px;
+}
+
+div.tg_channel_editbox hr.tg_epaper_hr_grey{
+    margin: 20px auto 10px;
+}
+
+div.tg_channel_editbox ul{
+    margin-left: 20px;
+}
+
+.widget div.tg_epaper_dialog_question_text{
+    max-width: 120px !important;
+    width:120px !important; 
+    white-space:normal !important;
+    line-height: 16px !important;
+}
+
+form.epaper_edit_form input, form.epaper_edit_form select{
+    width:180px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+div.epaper_settings_item_box{
+    margin-bottom: 5px;
+}
+
+div.epaper_settings_item_box input, 
+div.epaper_settings_item_box select,
+div.tg_epaper_dialog_question{
+    float:left;
+}
+
+span.post-status-display, span#post-status-display{
+    vertical-align: middle;
+}
+
+img.tg_preview_image{
+    vertical-align: middle;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.default{
+    font-weight: normal;
+}
