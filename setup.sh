@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
-curl http://wp-cli.org/installer.sh > wp-installer.sh
-INSTALL_DIR='.wp-cli' bash wp-installer.sh
-ln -s .wp-cli/bin/wp wp
+curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+# php wp-cli.phar --info
+chmod +x wp-cli.phar
+sudo mv wp-cli.phar /usr/local/bin/wp
+# wp --info
+# sudo rm /usr/local/bin/wp/wp-cli.phar
 
 # installing WP. Important to set URL same for acceptance tests
 ./wp db create
-./wp core install --url="http://127.0.0.1:4000" --title="UnTestEd" --admin_password="admin" --admin_email="davert.php@mailican.com"
+./wp core install --url="http://127.0.0.1:4000" --title="UnTestEd" --admin_password="admin" --admin_email="dev.dummy@1000grad.de"
 
 # activating test plugin
 ./wp plugin install 1000grad-epaper
