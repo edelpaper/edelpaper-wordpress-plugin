@@ -1,0 +1,50 @@
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+#color1000box, #c1000boxOverlay, #c1000boxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#c1000boxWrapper {max-width:none;}
+#c1000boxOverlay{position:fixed; width:100%; height:100%;}
+#c1000boxMiddleLeft, #c1000boxBottomLeft{clear:left;}
+#c1000boxContent{position:relative;}
+#c1000boxLoadedContent{overflow:auto; -webkit-overflow-scrolling: touch;}
+#c1000boxTitle{margin:0;}
+#c1000boxLoadingOverlay, #c1000boxLoadingGraphic{position:absolute; top:0; left:0; width:100%; height:100%;}
+#c1000boxPrevious, #c1000boxNext, #c1000boxClose, #c1000boxSlideshow{cursor:pointer;}
+.c1000boxPhoto{float:left; margin:auto; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic;}
+.c1000boxIframe{width:100%; height:100%; display:block; border:0;}
+#color1000box, #c1000boxContent, #c1000boxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#c1000boxOverlay{background:#fff;}
+#color1000box{outline:0;}
+    #c1000boxContent{margin-top:32px; overflow:visible; background:#000;}
+        .c1000boxIframe{background:#fff;}
+        #c1000boxError{padding:50px; border:1px solid #ccc;}
+        #c1000boxLoadedContent{background:#000; padding:1px;}
+        #c1000boxLoadingGraphic{background:url(images/loading.gif) no-repeat center center;}
+        #c1000boxLoadingOverlay{background:#000;}
+        #c1000boxTitle{position:absolute; top:-22px; left:0; color:#000;}
+        #c1000boxCurrent{position:absolute; top:-22px; right:205px; text-indent:-9999px;}
+
+         /*these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles*/ 
+        #c1000boxPrevious, #c1000boxNext, #c1000boxSlideshow, #c1000boxClose {border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:20px; height:20px; position:absolute; top:-20px; background:url(images/controls.png) no-repeat 0 0;}
+        
+         /*avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating)*/ 
+        #c1000boxPrevious:active, #c1000boxNext:active, #c1000boxSlideshow:active, #c1000boxClose:active {outline:0;}
+
+        #c1000boxPrevious{background-position:0px 0px; right:44px;}
+        #c1000boxPrevious:hover{background-position:0px -25px;}
+        #c1000boxNext{background-position:-25px 0px; right:22px;}
+        #c1000boxNext:hover{background-position:-25px -25px;}
+        #c1000boxClose{background-position:-50px 0px; right:0;}
+        #c1000boxClose:hover{background-position:-50px -25px;}
+        .c1000boxSlideshow_on #c1000boxPrevious, .c1000boxSlideshow_off #c1000boxPrevious{right:66px;}
+        .c1000boxSlideshow_on #c1000boxSlideshow{background-position:-75px -25px; right:44px;}
+        .c1000boxSlideshow_on #c1000boxSlideshow:hover{background-position:-100px -25px;}
+        .c1000boxSlideshow_off #c1000boxSlideshow{background-position:-100px 0px; right:44px;}
+        .c1000boxSlideshow_off #c1000boxSlideshow:hover{background-position:-75px -25px;}
