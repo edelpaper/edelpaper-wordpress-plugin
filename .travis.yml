@@ -55,10 +55,10 @@ before_script:
 # Use the Git mirror of WordPress.
 - git clone --depth=1 --branch="$WP_VERSION" git://develop.git.wordpress.org/ $WP_DEVELOP_DIR
 # Set up theme information.
-- plugin_slug=1000grda-epaper
+- plugin_slug=1000grad-epaper
 # - theme_slug=$(basename $(pwd))
 - plugin_dir=$WP_DEVELOP_DIR/src/wp-content/plugins/$plugin_slug
-- cd ..
+# - cd ..
 - mv src/$plugin_slug $plugin_dir
 # Set up WordPress configuration.
 - cd $WP_DEVELOP_DIR
